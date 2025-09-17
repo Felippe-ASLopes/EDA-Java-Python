@@ -90,9 +90,7 @@ Uma lista contendo todos os personagens já recebidos.
 ```json
 [
     {
-        "id": 1,
-        "nome": "Yasuo",
-        "apelido": "The Unforgiven"
-    }
+		"mensagem": "Personagem Criado: Yasuo - The Unforgiven"
+	}
 ]
 ```

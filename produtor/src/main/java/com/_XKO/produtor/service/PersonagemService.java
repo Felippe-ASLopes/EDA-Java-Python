@@ -27,7 +27,7 @@ public class PersonagemService {
         rabbitTemplate.convertAndSend(
                 RabbitMQConfig.exchangeName,
                 RabbitMQConfig.routingKey,
-                personagem
+                "Personagem Criado: " + personagem.getNome() + " - " + personagem.getApelido()
         );
 
         var response = new HashMap<String, Object>();
